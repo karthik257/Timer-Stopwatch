@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Markdown File
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Minimum Viable Product
 
-## Available Scripts
+- [x] You must have implemented a stopwatch that lets you start, stop and reset.
+- [x] The stopwatch must display the number of seconds and milliseconds.
+- [x] The timer must allow a user to manually enter the time using an inputbox, in seconds.
+- [x] The user should be able to start, stop and reset the timer.
+- [x] The user should be able to toggle between the timer and the stopwatch using tabs just like the google timer.
+- [x] The timer should not increment twice if its already clicked
 
-In the project directory, you can run:
+Stretch Goals
 
-### `npm start`
+- [x] The stopwatch must also display the minutes and hours.
+- [ ] The timer must also display the minutes and hours.
+- [ ] The timer must allow the user to input the time in seconds minutes and hours just like the Google timer.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Learning Objectives: Implemented the below objectives.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [x] Using listeners in react.
+- [x] Modifying state using setInterval
+- [x] Using lifecycle methods.
+- [x] if else rendering or using && to render based on condition
 
-### `npm test`
+Followed all the Notes mentioned below:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [x] NOTE1: Follow the instructions carefully and follow coding discipline
+- [x] NOTE2: Indent your code correctly and stick to one kind of naming style
+- [x] NOTE3: All components must be in different files and within a Components folder. CSS can be shared between components if desired. CSS modules must also be in your components folder.
+- [x] NOTE4: All static files like images must be in the public folder.
+- [x] NOTE5: All components files must have the same name as their compoenents. Eg: App must be in App.js.
+- [x] NOTE6: You must only call ReactDOM.render once in your index.js file!

@@ -1,0 +1,51 @@
+.container {
+  height: 500px;
+  width: 500px;
+  border: 3px solid black;
+  margin: 0 auto;
+}
+
+.tabSection {
+  display: flex;
+  justify-content: space-around;
+  border: 3px solid black;
+}
+.contentSection {
+  display: flex;
+  justify-content: space-around;
+  /* border: 5px solid blue; */
+}
+
+.tab1,
+.tab2,
+.tab3 {
+  color: lightgoldenrodyellow;
+  border: 2px solid brown;
+  width: 50%;
+  margin: 1em;
+}
+
+.content1 {
+  display: block;
+}
+.content2 {
+  display: block;
+}
+.content3 {
+  display: block;
+}
+
+.nocontent {
+  display: none;
+}
+
+input {
+  width: 20px;
+  text-align: center;
+}
+
+.timerDiv {
+  display: flex;
+  /* border: 2px solid red; */
+  gap: 20px;
+}
